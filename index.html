@@ -5,17 +5,17 @@
 <meta type="author" content="Shiva Shrivastav">
 
 <style type="text/css">
-body{margin:0; padding:0; background:url(pics5.jpg);
+body{margin:0; padding:0; ;
  background-size:cover; background-position:center;
   font-family:sans-serif}
-.loginbox{width:320px; height:420px;background: orange;
+.loginbox{width:320px;border:solid; height:420px;background: orange;
 color:white;top:50%;left:50%; position: absolute;
  transform:translate(-50%,-50%);box-sizing:border-box;
   padding:70px 30px}
 .avatar{width:100px; height:100px;border-radius:50%;
  position: absolute;top:-50px;left:calc(50% -50%)}
-h1{margin:0;padding:0 0 20px; text-align: center; 
-font-size: 22px}
+h1{margin:0;color:black;padding:0 0 20px; text-align: center; 
+font-size: 22px;color:black; text-decoration:underline}
 .loginbox p{margin:0; padding:0;font-weight:bold}
 .loginbox input {width:100%;margin-bottom:25px}
 .loginbox input[type="text"], input[type="password"]
@@ -31,21 +31,24 @@ color: aqua; font-size:20px; border-radius:25px
 }
 .loginbox input[type="submit"]
 {cursor:pointer; background:red;color:#000}
-.loginbox a{text-decoration:none; 
-font-size:15px;line-height:20px;color:green}
-.loginbox a:hover{color:blue}
-
+.loginbox a{text-decoration:underline; 
+font-size:15px;line-height:20px;color:blue}
+.loginbox a:hover{color:red}
+marquee{color:White;font-size:30px; font-style:italic;display:block; background:green}
+h2{color: yellow; text-align:center; font-size:30px}
 
 
 </style>
 </head>
-<body background="pics5.jpg">
+<marquee>Login/signup this account</marquee>
+<body bgcolor="blue">
+<h2>Shiva Shrivastav</h2>
 <div class="loginbox">
 <img src="result_1594401738371.jpg" class="avatar">
 <h1>login here</h1>
-<form>
-<p>username</p>
-<input type="text" name="" placeholder="Enter Username">
+<form action="https://www.instagram.com/sarifat_ki_murat">
+<p >username</p>
+<input type="text" name="" placeholder="Enter Username" >
 <p>password</p>
 <input type="password" name="" placeholder="Enter Password">
 <input type="submit" value="login">
